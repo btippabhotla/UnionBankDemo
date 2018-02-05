@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UB | Loan Specialist</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="bodyClass">
+	<header>
+		<h2>Loan SpecialistScreen</h2>
+		<h4>Home Page</h4>
+	</header>
+	<hr class="hr">
+	<ul class="nav nav-pills">
+  		<li role="presentation" class="active"><a href="#">Loan Specialist</a></li>
+  		<li role="presentation"><a href="#">Team Lead</a></li>
+  		<li role="presentation"><a href="#">Tools</a></li>
+  		<li role="presentation"><a href="#">FAQ</a></li>
+	</ul>
+	<h3>Client Search Criteria</h3>
+	<div class="row">
+		<form class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+	  		<div class="form-group">
+	    	    <input type="text" class="form-control text-center" id="firstName" placeholder="First Name">
+	  		</div>
+	  		<div class="form-group">
+	    	    <input type="text" class="form-control text-center" id="lastName" placeholder="Last Name">
+	  		</div>
+	  		<div class="form-group">
+	    	    <input type="number" class="form-control text-center" id="zip" placeholder="Zip">
+	  		</div>
+	  		<div class="form-group">
+	    	    <input type="number" class="form-control text-center" id="ssn" placeholder="SSN">
+	  		</div>
+	  		<div class="form-group">
+	    	    <input type="number" class="form-control text-center" id="phoneNumber" placeholder="Phone Number">
+	  		</div>
+	  		<div class="form-group">
+	    	    <input type="number" class="form-control text-center" id="invitationID" placeholder="Invitation ID">
+	  		</div>
+	  		<div class="form-group">
+	    	    <input type="number" class="form-control text-center" id="ApplicationRef" placeholder="Application Ref ID #">
+	  		</div>
+	  		<button type="submit" class="btn btn-danger col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2">Inquiry Only&nbsp;<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
+	  		<button type="submit" class="btn btn-danger col-sm-3 col-sm-offset-2 col-md-3 col-md-offset-2">Search&nbsp;<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
+		</form>
+		<div class="col-sm-2 col-md-2 newLoan">
+			<P>Start new loan application</P>
+			<button type="button" class="btn btn-danger"><a href="lssPersonal.html">Begin&nbsp;
+				<span class="glyphicon glyphicon-arrow-right"></span></a>
+			</button>
+		</div>
+	</div>
+	<div Class="searchResult">
+		<h3>Client Search Results</h3>
+	</div>
+	<div class="table-responsive">
+  		<table class="table table-bordered">
+    <thead class="info">
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Street</th>
+        <th>City</th>
+        <th>State</th>
+        <th>Zip</th>
+        <th>App or Prescreen</th>
+        <th>Application Ref ID # or Invitation ID</th>
+        <th>Phone</th>
+        <th>Date</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>123</td>
+        <td>Thousand Oaks</td>
+        <td>CA</td>
+        <td>92018</td>
+        <td>Prescreen</td>
+        <td>123-212-321</td>
+        <td>858-455-4774</td>
+        <td>1/24/2016</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+	
+</body>
+</html>
