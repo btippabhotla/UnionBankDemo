@@ -1,36 +1,45 @@
 .bodyClass{
-	margin:0em 3em 0em 3em;
+                margin:0em 3em 0em 3em;
 }
 
 .hr{
-	color: 2px solid red;
-	border-top: 2px solid red;
-	background-color: 2px solid red;
+                color: 2px solid red;
+                border-top: 2px solid red;
+                background-color: 2px solid red;
 }
 
 h3{
-	background:#A9CCE3;
-	font-weight:bold;
-	text-align:center;
-	border-bottom:3px solid #0B7BF9;
+                background:#A9CCE3;
+                font-weight:bold;
+                text-align:center;
+                border-bottom:3px solid #0B7BF9;
 }
 
 .newLoan{
-	border:1px solid black;
-	background:#A9CCE3;
-	text-align:center;
-	font-weight:bold;
-	padding: 0em 0em 1em 0em;
-	margin-left: 2em;
+        border:1px solid black;
+        background:#A9CCE3;
+        text-align:center;
+        font-weight:bold;
+        padding: 0em 0em 1em 0em;
+        margin-left: 2em;
 }
 
 .info{
-	background:#A9CCE3;
-	font-weight:bold;
-	text-align:center;
+        background:#A9CCE3;
+        font-weight:bold;
+        text-align:center;
 }
 
 .search{
-	margin:0em 0em 0em 10em;
+        margin:0em 0em 0em 10em;
 }
 
+.dotted{
+        border: 1px solid red;
+        border-style: dotted;
+        border-radius:3px;
+}
+
+.content-control{
+        padding:4px;
+}

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>UB | New Application</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style type="text/css">
+    	.bs-example{
+    		margin: 20px;
+    	}
+	</style>
+</head>
+<body class="bodyClass">
+	<header>
+		<h2>Loan SpecialistScreen</h2>
+		<h4>Details Page</h4>
+	</header>
+	<hr class="hr">
+	<div class="bs-example">
+    	<div class="panel-group" id="accordion">
+        	<div class="panel panel-danger">
+            	<div class="panel-heading">
+                	<h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                    	<strong>Personal Details</strong>
+                	</h4>
+            	</div>
+            	<div id="collapseOne" class="panel-collapse collapse in">
+                	<div class="panel-body">
+                    	<form class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+        	    			<div class="form-group">
+                    			<input type="text" class="form-control" id="firstName" placeholder="First Name*">
+                			</div>
+                			<div class="form-group">
+                    			<input type="text" class="form-control" id="middleName" placeholder="Middle Name">
+                			</div>
+                			<div class="form-group">
+                    			<input type="text" class="form-control" id="lastName" placeholder="Last Name*">
+                			</div>
+                			<div class="form-group row">
+                    			<div class="col-xs-8">
+        							<input class="form-control" id="address" type="text" placeholder="Home Address*">
+      							</div>
+      							<div class="col-xs-4">
+        							<input class="form-control" id="aptsuite" type="text" placeholder="Apt / Suite">
+      							</div>
+                			</div>
+                			<div class="form-group row">
+                    			<div class="col-xs-6">
+        							<input class="form-control" id="city" type="text" placeholder="City*">
+      							</div>
+      							<div class="col-xs-4">
+        							<input class="form-control" id="zip" type="number" placeholder="ZipCode*">
+      							</div>
+      							<div class="col-xs-2">
+        							<input class="form-control" id="state" type="text" placeholder="State*">
+      							</div>
+                			</div>
+                			<div class="form-group">
+                				<select class="form-control" id="References*" placeholder="References*">
+								    <option>Direct Mail</option>
+								    <option>Branch / FC</option>
+								    <option>Public Web</option>
+								    <option>Display Ad</option>
+								    <option>Aggregator</option>
+								    <option>Radio</option>
+								    <option>TV</option>
+								    <option>Customer Referral</option>
+								    <option>Other</option>
+								</select>                    			
+                			</div>
+                			<div class="form-group row">
+                    			<div class="col-xs-10">
+        							<input class="form-control" id="phoneNumber" type="number" placeholder="Phone Number*">
+      							</div>
+      							<div class="col-xs-2">
+        							<select class="form-control" id="phoneType">
+        								<option>Mobile</option>
+        								<option>Land Line</option>
+        							</select>
+      							</div>
+                			</div>
+                			<div class="form-group row">
+                    			<div class="col-xs-10">
+        							<input class="form-control" id="altPhoneNumber" type="number" placeholder="Alternate Phone Number">
+      							</div>
+      							<div class="col-xs-2">
+        							<select class="form-control" id="phoneType">
+        								<option>Mobile</option>
+        								<option>Land Line</option>
+        							</select>
+      							</div>
+                			</div>
+
+                			<div class="form-group dotted">
+                				<h6 class="content-control">TCPA Disclosure to be read to customer (insert language here)</h6>
+                    			<div class="form-check">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+									<label class="form-check-label" for="exampleRadios1">
+									    Agree and Acknowledge
+									</label>
+								
+									<input class="form-check-input col-md-offset-3" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+									<label class="form-check-label" for="exampleRadios2">
+									    Disagree
+									</label>
+								</div>
+                			</div>
+                			<div class="form-group">
+                    			<input type="email" class="form-control" id="email" placeholder="Email Address*">
+                			</div>
+                			<div class="form-group row">
+                    			<div class="col-xs-6">
+        							<select class="form-control" id="LoanPurpose">
+        								<option>Loan Purpose*</option>
+									    <option>Debt Consolidation</option>
+									    <option>Home Improvement</option>
+									    <option>Life Event</option>
+									    <option>Auto Repair</option>
+									    <option>Green Loan</option>
+									    <option>Medical Expense</option>
+									    <option>Pay Advance</option>
+									    <option>Other</option>
+									</select>
+      							</div>
+      							<div class="col-xs-6">
+        							<input class="form-control" id="LAR" type="number" placeholder="Loan Amount Requested*">
+      							</div>
+                			</div>
+                			<div class="form-group row">
+                    			<div class="col-xs-6">
+        							<input class="form-control" id="mpd" type="text" placeholder="Monthly Payment Desired*">
+      							</div>
+      							<div class="col-xs-6">
+        							<input class="form-control" id="AmountDesired" type="number" placeholder="Amount Desired*">
+      							</div>
+                			</div>   			
+                		</form>
+                	</div>
+            	</div>
+        	</div>
+        	<div class="panel panel-primary">
+            	<div class="panel-heading">
+                	<h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><strong>Employment Details</strong></h4>
+            	</div>
+            	<div id="collapseTwo" class="panel-collapse collapse">
+                	<div class="panel-body">
+                    	<form class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
+        	    			<div class="form-group">
+                    			<select class="form-control" id="empStatus">
+                    				<option>Employment Status*</option>
+								    <option>Employed</option>
+								    <option>Self-Employed</option>
+								    <option>Unemployed</option>
+								    <option>Retired</option>
+								    <option>Student</option>
+								    <option>Home Maker</option>
+								    <option>Other</option>
+								</select>
+                			</div>
+                			<div class="form-group">
+                    			<input type="text" class="form-control" id="empName" placeholder="Employer Name*">
+                			</div>
+                			<div class="form-group">
+                    			<input type="text" class="form-control" id="jobTitle" placeholder="Job Title*">
+                			</div>
+                			<div class="form-group">
+                    			<input class="form-control" id="year" type="number" placeholder="Year Employed*">
+                			</div>
+                			<div class="form-group"> 
+        						<input class="form-control" id="addtnlEmplyer" type="text" placeholder="Add Additional Employer (if applicable)">
+                			</div>
+                			<div class="form-group dotted">
+                				<h6 class="content-control">What is your household monthly income? And just keep in mind you do not need to include alimony, child support or separate maintenance income.</h6>                    			
+                			</div>
+                			
+                			<div class="form-group row">
+                    			<div class="col-xs-9">
+        							<input class="form-control" id="individualIncome" type="number" placeholder="$ Individual Income*">
+      							</div>
+      							<div class="col-xs-3">
+        							<select class="form-control" id="Frequency">
+        								<option>Frequency*</option>
+        								<option>Weekly</option>
+        								<option>Bi-Weekly</option>
+        								<option>Monthly</option>
+        								<option>Annual</option>
+        							</select>
+      							</div>
+                			</div>
+                			<div class="form-group"> 
+        						<input class="form-control" id="totalAnnual" type="number" placeholder="Total Annual individualIncome (Calculated)">
+                			</div>
+                			<div class="form-group row">
+                    			<div class="col-xs-9">
+        							<input class="form-control" id="householdIncome" type="number" placeholder="$ Household Income*">
+      							</div>
+      							<div class="col-xs-3">
+        							<select class="form-control" id="Frequency">
+        								<option>Frequency*</option>
+        								<option>Weekly</option>
+        								<option>Bi-Weekly</option>
+        								<option>Monthly</option>
+        								<option>Annual</option>
+        							</select>
+      							</div>
+                			</div>
+                			<div class="form-group"> 
+        						<input class="form-control" id="totalAnnual" type="number" placeholder="Total Annual individualIncome (Calculated)">
+                			</div>
+                			<div class="form-group">
+                				<select class="form-control" id="homeOwnership">
+								    <option>Home Ownership*</option>
+								    <option>Mortage</option>
+								    <option>Rent</option>
+								    <option>Own</option>
+								    <option>Other</option>								    
+								</select>                    			
+                			</div>                			
+                			<div class="form-group">
+        						<input class="form-control" id="totalMonthlyExpense" type="number" placeholder="Total Montly housing Expense*">
+      						</div> 
+      						<div class="form-group">
+        						<input class="form-control" id="DOB" type="date" placeholder="Date of Birth*">
+      						</div>
+      						<div class="form-group dotted">
+      							<p class="content-control">As part of your loan application you understand and agree that you are authorizing PurePoint/Union Bank to obtain customer regports and related information about you from one or more consumer reporting agencies (insert other language as needed).</p>
+      							<div class="form-check ">
+									<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+									<label class="form-check-label" for="exampleRadios1">
+									    Agree and Acknowledge
+									</label>
+								
+									<input class="form-check-input col-md-offset-3" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+									<label class="form-check-label" for="exampleRadios2">
+									    Disagree
+									</label>
+								</div>
+							</div>
+
+                		</form>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+	</div>
+</body>
+</html>                                		                            
